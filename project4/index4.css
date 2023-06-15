@@ -1,0 +1,45 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  font-family: 'Roboto',sans-serif,Tahoma;
+}
+body{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background:url(background4.jpg) center / cover;
+}
+.stopwatch{
+  background-color: whitesmoke;
+  width:250px;
+  height:150px;
+  text-align: center;
+  padding:10px;
+  border-radius:12px ;
+}
+.timer{
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+.icons{
+  font-size:1.5rem;
+}
+#play,#reset,#pause{
+  color:white;
+}
+#start-stopBtn,#resetBtn{
+  width:35px;
+  font-size: 2rem;
+  border: none;
+  margin-top: 15px;
+  margin-right: 10px;
+  padding:2px;
+}
+#start-stopBtn{
+  background-color: green;
+}
+#resetBtn{
+  background-color: darkred;
+}
